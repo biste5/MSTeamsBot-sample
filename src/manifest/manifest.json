@@ -1,0 +1,47 @@
+{
+  "$schema": "https://statics.teams.microsoft.com/sdk/v0.4/manifest/MicrosoftTeams.schema.json",
+  "manifestVersion": "0.4",
+  "id": "4a8ac006-2775-51b5-62a3-a074edcb1d8e",
+  "version": "0.0.1",
+  "developer": {
+    "name": "Massimo Prota",
+    "websiteUrl": "https://teamsbld-prota.azurewebsites.net",
+    "privacyUrl": "https://teamsbld-prota.azurewebsites.net/privacy.html",
+    "termsOfUseUrl": "https://teamsbld-prota.azurewebsites.net/tou.html"
+  },
+  "tabs": [
+    {
+      "id": "a26d5459-1c47-79a5-9686-672dbb123ff0",
+      "name": "Teams Build Tab",
+      "description": {
+        "short": "Add a short description for Teams Build Tab here",
+        "full": "Add a longer description for Teams Build Tab here"
+      },
+      "icons": {
+        "44": "https://teamsbld-prota.azurewebsites.net/assets/tab-44.png",
+        "88": "https://teamsbld-prota.azurewebsites.net/assets/tab-88.png"
+      },
+      "accentColor": "#223344",
+      "configUrl": "https://teamsbld-prota.azurewebsites.net/teamsBuildTabConfig.html",
+      "canUpdateConfig": true
+    }
+  ],
+  "bots": [
+    {
+      "mri": "a897dcd2-d47d-45b8-a28e-45d4341064b0",
+      "pinnedTabs": [
+        {
+          "id": "8194ea2b-4679-88cd-c5a2-ad8494cf980b",
+          "definitionId": "da2233ec-2023-66ee-0a03-93ddab972bb6",
+          "displayName": "TeamsBld Tab",
+          "url": "https://teamsbld-prota.azurewebsites.net/teamsBldTabTab.html",
+          "website": "https://teamsbld-prota.azurewebsites.net/teamsBldTabTab.html"
+        }
+      ]
+    }
+  ],
+  "needsIdentity": false,
+  "validDomains": [
+    "teamsbld-prota.azurewebsites.net"
+  ]
+}
